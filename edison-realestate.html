@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="shortcut icon" href="/img/fav.png" type="image/x-icon">
+<title>Edison Real Estate Ltd.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700;800&family=Barlow:wght@300;400;500;600&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<!-- style  -->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<!-- ─── NAVBAR ─── -->
+<nav id="navbar" style="padding: 0px 9%;">
+  <a class="nav-logo" href="#">
+    <div class="logo-icon">
+      <img src="/img/logo.svg" alt="" height="45 px" width="132 px">
+    </div>
+  </a>
+
+  <ul class="nav-links">
+    <li class="menu_items active"><a href="#">Home</a></li>
+    <li class="menu_items"><a href="#">About</a></li>
+    <li class="menu_items"><a href="#">Projects</a></li>
+    <li class="menu_items"><a href="#">Blog</a></li>
+    <li class="menu_items"><a href="#">Gallery</a></li>
+    <li class="menu_items"><a href="#">Career</a></li>
+    <li class="menu_items"><a href="#">Contact</a></li>
+    <li class="menu_items"><a href="#">Landowner</a></li>
+  </ul>
+
+  <a class="nav-phone" href="tel:16760">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 11 19.79 19.79 0 01.1 2.38 2 2 0 012.07.18h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 14.92z"/>
+    </svg>
+    16760
+  </a>
+
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </button>
+</nav>
+
+<!-- Mobile menu -->
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#">Home</a>
+  <a href="#">About</a>
+  <a href="#">Projects</a>
+  <a href="#">Blog</a>
+  <a href="#">Gallery</a>
+  <a href="#">Career</a>
+  <a href="#">Contact</a>
+  <a href="#">Landowner</a>
+</div>
+
+<!-- ─── SECTION 1: HERO SLIDER ─── -->
+<section class="hero " id="hero" style="padding: 0px 9%;">
+
+  <!-- Stacked slides (images only) -->
+  <div class="slide active" id="slide-0">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+  </div>
+  <div class="slide" id="slide-1">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+  </div>
+  <div class="slide" id="slide-2">
+    <div class="slide-bg"></div>
+    <div class="slide-overlay"></div>
+  </div>
+
+  <!-- Text overlays: fixed to hero, never slide -->
+  <div class="slide-content" id="text-0">
+    <h1 class="slide-title">Redefining Happiness</h1>
+  </div>
+  <div class="slide-content" id="text-1" >
+    <h1 class="slide-title">Boulevard That Makes<br>Your Heart Sing</h1>
+  </div>
+  <div class="slide-content" id="text-2">
+    <h1 class="slide-title">Oasis of Comfort</h1>
+  </div>
+
+  <!-- Vertical dots on RIGHT side -->
+  <div class="slider-dots">
+    <button class="dot active" aria-label="Slide 1"></button>
+    <button class="dot" aria-label="Slide 2"></button>
+    <button class="dot" aria-label="Slide 3"></button>
+  </div>
+
+  <!-- Bottom project bar -->
+  <div class="project-bar" style="padding: 0px 9%;">
+    <a class="bar-explore" href="#">
+      <svg class="bar-explore-icon" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1.5">
+        <rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/>
+        <rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/>
+      </svg>
+      <span class="bar-explore-text">Explore Projects</span>
+      <div class="bar-arrow"></div>
+    </a>
+    <div class="bar-links">
+      <a href="#">Ongoing</a>
+      <a href="#">Handed Over</a>
+      <a href="#">Upcoming</a>
+      <a href="#">Ready</a>
+    </div>
+  </div>
+</section>
+
+<!-- ─── SECTION 2: ABOUT US ─── -->
+<section class="about" id="about">
+  <div class="about-container">
+
+    <!-- LEFT: Text -->
+    <div class="about-text">
+      <h3 class="about-sub"><span>About Us</span></h3>
+      <h2 class="about-title">Redefining your<br>standard of living</h2>
+      <p class="about-body">Edison Group was founded in 2009 with the aim to enhance aspects of life for people by providing powerful brands, reliable products and a wide range of services. It ventured into the real estate sector in 2015 with its "dream team" dedicated to merge value and innovation in the evolving real estate sector of Bangladesh. Through considerable focus on design, structural dimension, and feasibility in the sense of space and resource conservation; as well as environmental soundness; we deliver you optimum support in residential and commercial accommodation.</p>
+      <p class="about-body">Conjoining the expertise of different fields to develop and bring in the quintessence of contemporary lifestyle, we provide distinguished services and strictly maintain project handover deadlines. We assure you to be your most reliable developer in Dhaka in terms of integrity and credibility.</p>
+      <a class="about-btn" href="/about-us"><span>learn more</span></a>
+    </div>
+
+    <!-- RIGHT: Image + Play -->
+    <div class="about-media">
+      <div class="about-img-wrap">
+        <img
+          src="https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=900&q=85"
+          alt="Redefining Your Standard of Living"
+        />
+        <div class="about-img-overlay"></div>
+        <button class="about-play" onclick="openVideo()" aria-label="Watch video">
+          <div class="play-circle">
+            <div class="play-triangle"></div>
+          </div>
+        </button>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ─── VIDEO MODAL ─── -->
+<div class="video-modal" id="videoModal" onclick="closeVideoOnBg(event)">
+  <div class="video-modal__box">
+    <button class="video-modal__close" onclick="closeVideo()" aria-label="Close">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+        <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+      </svg>
+    </button>
+    <div class="video-modal__iframe-wrap">
+      <iframe
+        id="videoIframe"
+        src=""
+        title="Edison Real Estate Video"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
+  </div>
+</div>
+
+
+<script src="/custom.js"></script>
+
+</body>
+</html>
