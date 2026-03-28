@@ -25,6 +25,7 @@ position: fixed;
 top: 0; left: 0; right: 0;
 z-index: 200;
 display: grid;
+grid-template-columns: auto 1fr auto;
 align-items: center;
 height: 75px;
 background: var(--nav-bg);
